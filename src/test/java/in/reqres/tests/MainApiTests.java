@@ -16,8 +16,6 @@ public class MainApiTests extends BaseTest {
     @Test
     @DisplayName("Тест соединения")
     public void connectionTest() {
-        open();
-
         given()
                 .spec(connectionRequestSpec)
                 .when()
@@ -31,8 +29,6 @@ public class MainApiTests extends BaseTest {
     @Test
     @DisplayName("Тест регистрации позитивный")
     public void registrationPositiveTest() {
-        open();
-
         ResponseModel response = given()
                 .spec(FullSpecs.registrationRequestSpec)
                 .body(body)
@@ -49,8 +45,6 @@ public class MainApiTests extends BaseTest {
     @Test
     @DisplayName("Тест входа позитивный")
     public void loginPositiveTest() {
-        open();
-
         ResponseModel response = given()
                 .spec(loginRequestSpec)
                 .body(body)
@@ -67,7 +61,6 @@ public class MainApiTests extends BaseTest {
     @Test
     @DisplayName("Тест регистрации негативный")
     public void registrationNegativeTest() {
-        open();
 
         given()
                 .spec(registrationRequestSpec)
@@ -83,7 +76,6 @@ public class MainApiTests extends BaseTest {
     @Test
     @DisplayName("Тест входа негативный")
     public void loginNegativeTest() {
-        open();
 
         given()
                 .spec(loginRequestSpec)
