@@ -13,7 +13,7 @@
 - [Allure отчет](#signal_strength-Allure-отчет)
 - [Отчёт в telegram](#signal_strength-Отчёт-в-telegram)
 
-## :receipt: Тестовая модель
+## :receipt: Тест кейсы
 
 - Тест соединения
 - Тест регистрации позитивный
