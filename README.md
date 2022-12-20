@@ -8,8 +8,7 @@
 - [Тестовая модель](#receipt-Тестовая-модель)
 - [Стек](#wrench-Стек)
 - [Jenkins сборка](#window-Jenkins-сборка)
-- [Локальный запуск](#arrow_forward-Локальный-запуск)
-- [Удаленный запуск](#arrow_forward-Удаленный-запуск)
+- [Запуск тестов](#arrow_forward-Запуск-тестов)
 - [Allure отчет](#signal_strength-Allure-отчет)
 - [Отчёт в telegram](#signal_strength-Отчёт-в-telegram)
 
@@ -41,13 +40,9 @@
 </p>
 
 
-### :arrow_forward: Локальный запуск:
+### :arrow_forward: Запуск тестов:
 ```
-gradle clean localTest
-```
-### :arrow_forward: Удаленный запуск:
-```
-gradle clean remoteTest
+gradle clean test
 ```
 
 ## :signal_strength: Allure-отчет

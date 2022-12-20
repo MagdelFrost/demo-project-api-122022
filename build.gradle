@@ -72,13 +72,3 @@ tasks.withType(Test) {
         }
     }
 }
-
-task localTest(type: Test) {
-    systemProperties += ["env" : "local"]
-    useJUnitPlatform {}
-}
-
-task remoteTest(type: Test) {
-    systemProperties += ["env": "remote"]
-    useJUnitPlatform {}
-}
