@@ -5,14 +5,14 @@
 
 ## :mag_right: Содержание:
 
-- [Тестовая модель](#receipt-Тестовая-модель)
+- [Тест кейсы](#receipt-Тест-кейсы)
 - [Стек](#wrench-Стек)
 - [Jenkins сборка](#window-Jenkins-сборка)
 - [Запуск тестов](#arrow_forward-Запуск-тестов)
 - [Allure отчет](#signal_strength-Allure-отчет)
 - [Отчёт в telegram](#signal_strength-Отчёт-в-telegram)
 
-## :receipt: Тестовая модель
+## :receipt: Тест кейсы
 
 - Тест соединения
 - Тест регистрации позитивный
